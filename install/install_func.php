@@ -379,24 +379,24 @@ function get_db_config(){
 					array(
 						// phpcms
 						'dbhost'=>defined('DB_HOST')?DB_HOST:'',
-						'dbname'=>DB_NAME,
-						'dbuser'=>DB_USER,
-						'dbpassword'=>DB_PW,
+						'dbname'=> 'DB_NAME',
+						'dbuser'=> 'DB_USER',
+						'dbpassword'=> 'DB_PW',
 					),
 					array(
 						// ucenter
 						'dbhost'=>defined('UC_DBHOST')?UC_DBHOST:'',
 						'dbhost_de'=>'UC_DBHOST',
-						'dbname'=>UC_DBNAME,
-						'dbuser'=>UC_DBUSER,
-						'dbpassword'=>UC_DBPW,
+						'dbname'=> 'UC_DBNAME',
+						'dbuser'=> 'UC_DBUSER',
+						'dbpassword'=> 'UC_DBPW',
 					),
 					array(
 						// ucenter
 						'dbhost'=>defined('UC_DBHOST')?UC_DBHOST:'',
-						'dbname'=>UC_DBNAME,
-						'dbuser'=>UC_DBUSER,
-						'dbpassword'=>UC_DBPW,
+						'dbname'=> 'UC_DBNAME',
+						'dbuser'=> 'UC_DBUSER',
+						'dbpassword'=> 'UC_DBPW',
 					),
 					array(
 						// DZ
